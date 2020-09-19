@@ -33,17 +33,17 @@
     form-data "^3.0.0"
     qs "^6.9.4"
 
-"@rc-ex/rate-limit@^0.5.7":
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/@rc-ex/rate-limit/-/rate-limit-0.5.7.tgz#4d938af368aff0fa5d8d5d9bbd8152e539625688"
-  integrity sha512-xg7v1u3sfz85LtXja0CqMA0/vTNpRhWUGmgu6r1xd1iwmFoQqdlj1zGzHaEeDqadsXNepriIODIq36tgLhdqbQ==
+"@rc-ex/rate-limit@^0.5.8":
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/@rc-ex/rate-limit/-/rate-limit-0.5.8.tgz#0f86ab472be53b04d5afd51896b7309e4e85edbe"
+  integrity sha512-0+cfee40yQkNSytDxOPT/QZ/dJLttYMI4A4+02vrOTq/59v082+wtS2zVGOhEcccP2j3z4GWP2UblK9jyD94hw==
   dependencies:
-    "@rc-ex/retry" "^0.5.7"
+    "@rc-ex/retry" "^0.5.8"
 
-"@rc-ex/retry@^0.5.7":
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/@rc-ex/retry/-/retry-0.5.7.tgz#7fc76906553a31397cb84bed5287e56a5ca963b0"
-  integrity sha512-x7JyqxlonEQRRelOAV3ojwWfp8ENleau0O3wy9s/78DbBJ5/8u0lmv1SBF2aly5aqsl5YCr9s9nVPtkKTXPP4w==
+"@rc-ex/retry@^0.5.8":
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/@rc-ex/retry/-/retry-0.5.8.tgz#049981c128de8a6895eb065913bc7b909b705760"
+  integrity sha512-G+IVCMLkgykuwovyFXn1SgXpf5Z3qhw1ImODyspSmR3yBFuB23Adxex2NRxvP9MV/ueLvb8uW51r8s+kowqAtw==
   dependencies:
     wait-for-async "^0.5.0"
 
@@ -439,11 +439,11 @@ crypto-random-string@^2.0.0:
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
 debug@^4.0.1, debug@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
-  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.2.0.tgz#7f150f93920e94c58f5574c2fd01a3110effe7f1"
+  integrity sha512-IX2ncY78vDTjZMFUdmsvIRFY2Cf4FnD0wRs+nQwJU8Lu99/tPFdb0VybiiMTPe3I6rQmwsqQqRBvxU+bZ/I8sg==
   dependencies:
-    ms "^2.1.1"
+    ms "2.1.2"
 
 decamelize-keys@^1.1.0:
   version "1.1.0"
@@ -1274,7 +1274,7 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
-ms@^2.1.1:
+ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
